@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.container {
+  margin: 150px auto;
+  max-width: 1000px;
+  padding: 30px 25px;
+  border-radius: 30px;
+}
+
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: left;
+  height: 450px;
+  line-height: 1.6em;
+  
+}
+
+.clr {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.bg-orange {
+  background: hsl(31, 77%, 52%);
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.bg-light {
+  background: hsl(184, 100%, 22%);
+  color: #fff;
+}
+.bg-dark {
+  background: hsl(179, 100%, 13%);
+  color: #fff;
+  border-radius: 0px 10px 10px 0px;
+}
+@media screen and (max-width: 1024px) {
+  .bg-orange {
+    border-radius: 10px 10px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .bg-dark {
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+img {
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Big Shoulders Display', cursive, sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.btn {
+  margin-top: 80px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.bt-orange{
+  color: hsl(31, 77%, 52%);
+  border: hsl(31, 77%, 52%) solid;
+}
+
+.bt-light {
+  color: hsl(184, 100%, 22%);
+  border: hsl(184, 100%, 22%) solid;
+}
+.bt-dark {
+  color: hsl(179, 100%, 13%);
+  border: hsl(179, 100%, 13%) solid;
+}
+
+.bt-orange:hover {
+  border-color: #fff;
+  background-color: hsl(31, 77%, 52%);
+  color: #fff;
+}
+.bt-light:hover {
+  border-color: #fff;
+  background-color: hsl(184, 100%, 22%);
+  color: #fff;
+}
+.bt-dark:hover {
+  border-color: #fff;
+  background-color: hsl(179, 100%, 13%);
+  color: #fff;
+}
+footer {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 100px;
+}
+footer a {
+  display: inline-block;
+  color: hsl(228, 45%, 44%);
+}
