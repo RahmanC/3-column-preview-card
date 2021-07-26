@@ -65,6 +65,21 @@ html, body {
 }
 @media screen and (max-width: 1024px) {
   .bg-orange {
+    border-radius: 10px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .bg-light {
+    border-radius: 0px 10px 0px 0px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .bg-dark {
+    border-radius: 0px 0px 0px 10px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .bg-orange {
     border-radius: 10px 10px 0px 0px;
   }
 }
@@ -135,4 +150,6 @@ footer {
 footer a {
   display: inline-block;
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
+
